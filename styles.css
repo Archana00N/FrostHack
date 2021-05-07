@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+/*Touch to Top*/
+
+.scroll-up-btn{
+  position: fixed;
+  height: 60px;
+  width: 60px;
+  background: rgb(0, 1, 80);
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 30px;
+  border-bottom-width: 2px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.scroll-up-btn .show{
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.scroll-up-btn:hover{
+  filter: brightness(90%);
+}
+
+/*Navbar*/
+
+.navbar{
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  border-color: rgb(199, 199, 199);
+  box-shadow: rgb(73, 73, 73);
+  padding: 4px 30px;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  padding: 15px 0;
+  background: rgb(255, 255, 255);
+}
+.navbar .max-width{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  display: block;
+  color: rgb(5, 23, 100);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+      color: rgb(255, 0, 0);
+  }
+.navbar.sticky .menu li a:hover{
+  color: rgb(255, 0, 0);
+}
+.navbar .logo img{
+  margin-left: 130px;
+}
+
+/*Home*/
+.home{
+  display: flex;
+  background: url("imgs/corona-5002341_1920.jpg") no-repeat center;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home .home-container .base-text{
+  font-size: 85px;
+    font-weight: 600;
+    margin-left: -3px;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+.home .home-container .text{
+  font-size: 25px;
+  margin-left: -3px;
+  padding-top: 18px;
+  padding-left: 30px;
+}
+.home .home-container .text-current{
+  font-size: 22px;
+  margin-left: -3px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 70px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(47, 47, 47);
+}
