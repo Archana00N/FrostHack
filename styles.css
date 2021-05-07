@@ -6,7 +6,8 @@
   text-decoration: none;
 }
 
-
+html{scroll-behavior: smooth;
+}
 /*Touch to Top*/
 
 .scroll-up-btn{
@@ -64,10 +65,10 @@
   display: inline-block;
 }
 .navbar .menu li a{
+  font-family: 'ABeeZee', sans-serif;
   display: block;
   color: rgb(5, 23, 100);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 900;
   margin-left: 25px;
   transition: color 0.3s ease;
@@ -81,6 +82,18 @@
 .navbar .logo img{
   margin-left: 130px;
 }
+.navbar.sticky .menu li a:hover{
+  color: #fff;
+}
+.navbar .menu li a:hover{
+  color: crimson;
+}
+.menu-btn{
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
 
 /*Home*/
 .home{
@@ -89,12 +102,13 @@
   height: 100vh;
   color: #fff;
   min-height: 500px;
+  font-family: 'ABeeZee', sans-serif;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .home .home-container .base-text{
   font-size: 85px;
+  font-family: Ubuntu;
     font-weight: 600;
     margin-left: -3px;
     padding-top: 200px;
@@ -107,22 +121,46 @@
   padding-left: 30px;
 }
 .home .home-container .text-current{
-  font-size: 22px;
+  font-size: 25px;
   margin-left: -3px;
   padding-top: 15px;
   padding-left: 30px;
+}
+.home .home-container .text-oxy{
+  font-size: 35px;
+  margin-left: -3px;
+  padding-top: 32px;
+  padding-left: 30px;
+}
+
+/*Project*/
+.project .project-container{
+  width : 60%;
+  margin: auto;
+}
+.project .project-container .problems{
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'ABeeZee', sans-serif;
+}
+.project .project-container h2{
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Ubuntu', sans-serif;
 }
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: rgb(0, 0, 0);
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(61, 61, 61);
   border-radius: 70px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(47, 47, 47);
+  background: rgb(98, 98, 98);
 }
