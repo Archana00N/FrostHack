@@ -9,7 +9,10 @@ It should contain the following things:
 
 
 ## About the Code:
-###(And how to run)
+Highlights: a very simple db filterer, a carousel, a puzzle.
+
+Usage instructions:
+
 It requires a database on phpmyAdmin on the localhost to access the database. Without it, the 'Oxygen form' will not work.
 
 The way to create it in the Localhost of phpmyAdmin is: create new database, choose 5 columns. Name them:
