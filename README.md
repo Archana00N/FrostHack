@@ -12,7 +12,7 @@ The way to create it in the Localhost of phpmyAdmin is: create new database, cho
 <br />State, City, Company_name, Person_name, Contact_number (type: bigint) with sufficient size(min 50 each).
 <br />Then, import the given csv file. Then you can open the main program (index.html) in your browser.
 
-The CSS and JS file, along with the php files are present in the repo. 
+The CSS and JS file, along with the php files are present in the repo.  Have used mysqli as well.
 <br />Picture used is from the website https://pixabay.com/
 
 **Credits**<br />
@@ -20,3 +20,4 @@ The source code of the oxygen information filtering is a youtube video: https://
 <br />The carousel effect belongs to: https://cdnjs.com/libraries/owl-carousel
 <br />The source code of the stress management fun jigsaw puzzle belongs to: Packery - https://packery.metafizzy.co
 <br />Code from some "Code with Harry youtube videos(not specifically any)".
+
