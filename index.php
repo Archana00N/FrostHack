@@ -21,9 +21,7 @@
         .container{
             width:100%;
         }
-        .container .row{
-            width: 50%;
-        }
+        
         .container .right-row{
             width:50%;
             float: right;
@@ -77,7 +75,7 @@
             </div>
         </form>
     </div>
-    <div class="right-row"><img src="imgs/oxymeter.jpg" alt="oxymeter"></div>
+    <div class="right-row"><img width= 100% height= auto src="imgs/oxymeter.jpg" alt="oxymeter"></div>
     <div class="row">
         <table class="table table-striped table-hover" style="text-align: center;" margin= auto>
             <thead style="text-align: center;" margin= auto>
